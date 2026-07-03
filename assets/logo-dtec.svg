@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 132" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Dtec</title>
+  <defs>
+    <linearGradient id="dtec-blue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00b7ee"/>
+      <stop offset="1" stop-color="#0088c8"/>
+    </linearGradient>
+    <linearGradient id="dtec-green" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#8be34d"/>
+      <stop offset="1" stop-color="#4cc638"/>
+    </linearGradient>
+  </defs>
+  <rect width="456" height="132" rx="18" fill="#fff"/>
+  <path d="M52 38h55c30 0 53 20 53 47s-23 47-53 47H52l24-32h31c11 0 20-6 20-15s-9-15-20-15H76L52 38Z" fill="#061423"/>
+  <path d="M24 38h52L46 70l31 30H25l30-30L24 38Z" fill="url(#dtec-blue)"/>
+  <path d="M61 10h54L88 36H34L61 10Z" fill="url(#dtec-green)"/>
+  <text x="190" y="92" fill="#061423" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="-1">Dtec</text>
+</svg>
