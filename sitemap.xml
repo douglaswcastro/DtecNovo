@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dtec.com.br/</loc>
+    <loc>https://vyrra.com.br/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dtec.com.br/servicos/sites.html</loc>
+    <loc>https://vyrra.com.br/servicos/sites.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dtec.com.br/servicos/sistemas-web.html</loc>
+    <loc>https://vyrra.com.br/servicos/sistemas-web.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dtec.com.br/servicos/aplicativos.html</loc>
+    <loc>https://vyrra.com.br/servicos/aplicativos.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dtec.com.br/servicos/automacao.html</loc>
+    <loc>https://vyrra.com.br/servicos/automacao.html</loc>
     <priority>0.8</priority>
   </url>
 </urlset>
