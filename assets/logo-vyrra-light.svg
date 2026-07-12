@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 84" role="img" aria-labelledby="vyrra-logo-title-light">
+  <title id="vyrra-logo-title-light">vyrra</title>
+  <g transform="translate(6,10) scale(0.7)">
+    <line x1="50" y1="60" x2="76" y2="38.1" stroke="#c08a4e" stroke-width="5.5" stroke-linecap="round"/>
+    <circle cx="50" cy="60" r="8.5" fill="#17191b" stroke="#c08a4e" stroke-width="3"/>
+    <path d="M 10 60 A 40 40 0 0 1 90 60" fill="none" stroke="#3a3f43" stroke-width="3.2"/>
+  </g>
+  <text x="94" y="58" font-family="'Space Grotesk', 'Segoe UI', Arial, sans-serif" font-size="44" font-weight="600" fill="#e9e3d4">vy<tspan fill="#c08a4e">rr</tspan>a</text>
+</svg>

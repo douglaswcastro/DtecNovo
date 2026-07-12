@@ -51,6 +51,30 @@ if (sections.length) {
   sections.forEach((section) => observer.observe(section));
 }
 
+const revealTargets = document.querySelectorAll(
+  ".service-card, .case-card, .result-panel, .timeline li, .section-heading, .feature-list li, .sidebar-panel",
+);
+
+revealTargets.forEach((el, index) => {
+  el.classList.add("reveal");
+  el.style.transitionDelay = `${Math.min(index % 4, 3) * 90}ms`;
+});
+
+if (revealTargets.length) {
+  const revealObserver = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.15, rootMargin: "0px 0px -60px 0px" },
+  );
+
+  revealTargets.forEach((el) => revealObserver.observe(el));
+}
+
 form?.addEventListener("submit", (event) => {
   event.preventDefault();
 
